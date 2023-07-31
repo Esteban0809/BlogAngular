@@ -1,18 +1,14 @@
 <!-- src/app/app.component.html -->
+<app-sidebar></app-sidebar>
+
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3">
-      <!-- Agregar el componente SidebarComponent aquí -->
-      <app-sidebar></app-sidebar>
-    </div>
-    <div class="col-md-9">
+    <div class="col-md-12">
       <!-- Aquí irá el contenido principal de tu aplicación -->
       <router-outlet></router-outlet>
+      <app-home></app-home>
     </div>
   </div>
 </div>
 
-<!-- Agregar el componente FooterComponent aquí -->
-
 <app-footer></app-footer>
-```
