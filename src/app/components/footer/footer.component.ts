@@ -1,3 +1,4 @@
+// src/app/components/footer/footer.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-
+  constructor() { }
 }
